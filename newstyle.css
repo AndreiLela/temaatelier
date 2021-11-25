@@ -1,0 +1,109 @@
+body {
+  background-color: red;
+}
+* {
+ background-color: red;
+ font-family: Tahoma, sans-serif;
+ color: White;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+.bara img {
+	width: 55px;
+	padding: 10px 0px 5px 10px;
+}
+
+.bara h1 {
+			display: inline;
+			margin: 10px 10px;
+			vertical-align:80%;
+			}
+	
+.meniu li {
+		list-style-type:none;
+		background-color:white;
+		float:right;
+		width:200px;
+		height:40px;		
+		font-family: Tahoma, sans-serif;
+		margin: 0px 1300px;
+		
+}
+.meniu li:hover
+		{	
+		background-color:red;
+		font-weight: bold;
+		}
+
+.meniu a {
+		text-decoration:none;
+		color:black;
+		}
+
+.content {
+			color: white;
+			font-family: Tahoma, sans-serif;
+}
+
+.jos {
+			color: white;
+			font-family: Tahoma, sans-serif;
+			text-align: center;
+			background-color:Black
+			
+}
+
+head {
+	 background-color:black;
+}
+
+.container::after {
+	content:"";
+	clear:both;
+	display:table;
+}
+.pe-jumate {
+	float:left;
+	width:50%;
+}
+.pe-sfert {
+	float:left;
+	width:25%;
+}
+.sectiune {
+	background-color:Black;
+	padding-left: 5px;
+	border: 5px solid red;
+
+}
+ h3 {
+	text-align:center;
+}	
+
+p {
+	text-align:center;
+}
+	   
